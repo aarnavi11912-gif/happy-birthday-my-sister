@@ -1,0 +1,257 @@
+<!-- ==========================
+     MAKE A WISH SECTION
+=========================== -->
+
+<section class="wish-section" id="makeWish">
+
+  <div class="section-container">
+
+    <div class="section-heading">
+      <small>✨ MAKE A BIRTHDAY WISH</small>
+
+      <h2>
+        Make a Wish, Jheel 💜
+      </h2>
+
+      <p>
+        Close your eyes, think of something beautiful and write your birthday wish here.
+      </p>
+    </div>
+
+    <div class="wish-card">
+
+      <div class="wish-cake">
+        🎂
+      </div>
+
+      <h3>
+        Make Your Special Wish ✨
+      </h3>
+
+      <textarea
+        id="wishInput"
+        placeholder="Write your birthday wish here... 💕"
+      ></textarea>
+
+      <button
+        class="btn primary-btn"
+        onclick="saveWish()"
+      >
+        🌟 Save My Wish
+      </button>
+
+      <div id="savedWishBox" class="saved-wish-box">
+        <p id="savedWishText"></p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ==========================
+     GIFT SECTION
+=========================== -->
+
+<section class="gift-section" id="gifts">
+
+  <div class="section-container">
+
+    <div class="section-heading">
+
+      <small>🎁 LITTLE SURPRISES</small>
+
+      <h2>
+        Gifts for Jheel
+      </h2>
+
+      <p>
+        Tap a gift box and discover a cute birthday surprise from Shailee. 💕
+      </p>
+
+    </div>
+
+
+    <div class="gift-grid">
+
+
+      <!-- Gift 1 -->
+
+      <div class="gift-card" onclick="openGift(this, 'A big warm hug from Shailee! 🤗💕')">
+
+        <div class="gift-box pink-gift">
+
+          <div class="gift-lid"></div>
+
+          <div class="gift-ribbon"></div>
+
+          <span>
+            🎀
+          </span>
+
+        </div>
+
+        <h3>
+          Sister Hug
+        </h3>
+
+        <p>
+          Tap to open
+        </p>
+
+        <div class="gift-message"></div>
+
+      </div>
+
+
+      <!-- Gift 2 -->
+
+      <div class="gift-card" onclick="openGift(this, 'May your whole year be filled with happiness, laughter and beautiful moments! 🌸✨')">
+
+        <div class="gift-box purple-gift">
+
+          <div class="gift-lid"></div>
+
+          <div class="gift-ribbon"></div>
+
+          <span>
+            💜
+          </span>
+
+        </div>
+
+        <h3>
+          Happiness Box
+        </h3>
+
+        <p>
+          Tap to open
+        </p>
+
+        <div class="gift-message"></div>
+
+      </div>
+
+
+      <!-- Gift 3 -->
+
+      <div class="gift-card" onclick="openGift(this, 'Unlimited cakes, chocolates and sweetness just for you! 🎂🍫🍰')">
+
+        <div class="gift-box yellow-gift">
+
+          <div class="gift-lid"></div>
+
+          <div class="gift-ribbon"></div>
+
+          <span>
+            🍰
+          </span>
+
+        </div>
+
+        <h3>
+          Sweet Surprise
+        </h3>
+
+        <p>
+          Tap to open
+        </p>
+
+        <div class="gift-message"></div>
+
+      </div>
+
+
+      <!-- Gift 4 -->
+
+      <div class="gift-card" onclick="openGift(this, 'A box full of beautiful memories for Jheel and Shailee to make together! 📸💕')">
+
+        <div class="gift-box lavender-gift">
+
+          <div class="gift-lid"></div>
+
+          <div class="gift-ribbon"></div>
+
+          <span>
+            📸
+          </span>
+
+        </div>
+
+        <h3>
+          Memory Box
+        </h3>
+
+        <p>
+          Tap to open
+        </p>
+
+        <div class="gift-message"></div>
+
+      </div>
+
+
+      <!-- Gift 5 -->
+
+      <div class="gift-card" onclick="openGift(this, 'May every little dream in your heart come true! 🌟🦋')">
+
+        <div class="gift-box pink-gift">
+
+          <div class="gift-lid"></div>
+
+          <div class="gift-ribbon"></div>
+
+          <span>
+            🌟
+          </span>
+
+        </div>
+
+        <h3>
+          Dream Box
+        </h3>
+
+        <p>
+          Tap to open
+        </p>
+
+        <div class="gift-message"></div>
+
+      </div>
+
+
+      <!-- Gift 6 -->
+
+      <div class="gift-card" onclick="openGift(this, 'No matter how much we grow, sisters will always share a special bond. Love you Jheel! 👭💗')">
+
+        <div class="gift-box purple-gift">
+
+          <div class="gift-lid"></div>
+
+          <div class="gift-ribbon"></div>
+
+          <span>
+            👭
+          </span>
+
+        </div>
+
+        <h3>
+          Sister Love
+        </h3>
+
+        <p>
+          Tap to open
+        </p>
+
+        <div class="gift-message"></div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
